@@ -7,9 +7,9 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: narugit/hello-from-action@1.0.0
+        uses: narugit/hello-from-action@1.5
         with:
-          who-to-greet: 'Mona the Octocat'
+          who-to-greet: 'narugit'
       # Use the output from the `hello` step
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
