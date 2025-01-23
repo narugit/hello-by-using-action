@@ -7,7 +7,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: narugit/hello-from-action@1.5
+        uses: narugit/hello-from-action@v1.4
         with:
           who-to-greet: 'narugit'
       # Use the output from the `hello` step
